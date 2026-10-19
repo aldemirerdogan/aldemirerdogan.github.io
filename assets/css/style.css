@@ -1349,3 +1349,37 @@ footer .credits a {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
+/* Language Switcher */
+.lang-btn {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 5px 14px !important;
+  border-radius: 20px;
+  font-size: 13px !important;
+  text-transform: none !important;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+.lang-btn:hover {
+  background: #0078ff !important;
+  color: #fff !important;
+  border-color: #0078ff !important;
+}
+.lang-btn:before {
+  display: none !important;
+}
+.navbar-mobile .lang-btn {
+  color: #0078ff !important;
+  border: 1px solid #0078ff !important;
+  background: rgba(0, 120, 255, 0.08);
+  margin: 10px 20px;
+  display: inline-flex !important;
+}
+.navbar-mobile .lang-btn:hover {
+  background: #0078ff !important;
+  color: #fff !important;
+}
